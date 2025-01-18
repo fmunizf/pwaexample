@@ -1,12 +1,12 @@
 const CACHE_NAME = 'to-do-pwa-cache-v1';
 const FILES_TO_CACHE = [
-'/webtrends/',
-'/webtrends /index.html',
-'/webtrends /style.css',
-'/webtrends /app.js',
-'/webtrends /manifest.json',
-'/webtrends /icons/icon-128.png',
-'/webtrends /icons/icon-512.png'
+'/pwaexample/',
+'/pwaexample/index.html',
+'/pwaexample/style.css',
+'/pwaexample/app.js',
+'/pwaexample/manifest.json',
+'/pwaexample/icons/icon-128.png',
+'/pwaexample/icons/icon-512.png'
 ];
 self.addEventListener('install', (event) => {
 event.waitUntil(
